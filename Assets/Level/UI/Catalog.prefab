@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3338105215339388744}
   - component: {fileID: 5691638895003507216}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Catalog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,8 +26,8 @@ Transform:
   m_GameObject: {fileID: 1226482579330108530}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4873310739045176428}
   m_Father: {fileID: 0}
@@ -63,7 +63,7 @@ GameObject:
   - component: {fileID: 3713780540894256272}
   - component: {fileID: 8435644822257160127}
   - component: {fileID: 7168128431337446038}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
