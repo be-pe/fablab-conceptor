@@ -6,4 +6,9 @@ public class ButtonHelper : MonoBehaviour
 {
     public Image preview;
     public TextMeshProUGUI text;
+    public GameObject go;
+
+    public void HandleClick() {
+        GameObject instance = Instantiate(go);
+    }
 }

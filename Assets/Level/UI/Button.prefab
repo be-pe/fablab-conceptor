@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8078667018125021038}
   - component: {fileID: 5426623880060079973}
   - component: {fileID: 4981112925187271397}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,7 +146,7 @@ GameObject:
   - component: {fileID: 5942799332111846060}
   - component: {fileID: 5107614362467418049}
   - component: {fileID: 1615186745911284290}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: Preview
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 339616079599746890}
   - component: {fileID: 1861421935140057875}
   - component: {fileID: 1764307774134660143}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -360,6 +360,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   preview: {fileID: 1615186745911284290}
   text: {fileID: 4981112925187271397}
+  go: {fileID: 0}
 --- !u!114 &339616079599746890
 MonoBehaviour:
   m_ObjectHideFlags: 0

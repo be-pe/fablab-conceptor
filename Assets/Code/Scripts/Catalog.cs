@@ -14,6 +14,7 @@ public class Catalog : MonoBehaviour
     private void Start()
     {
         
+        
         System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo("./Assets/Resources/");
     
         var names  = dir.GetFiles("*.prefab");
@@ -21,10 +22,10 @@ public class Catalog : MonoBehaviour
         {
             var nm = Path.GetFileNameWithoutExtension(names[index].Name);
             Debug.Log(nm);
-         
-           GameObject instance = Instantiate(Resources.Load(nm, typeof(GameObject))) as GameObject;
             var temp = Instantiate(button, screen.transform);
-            temp.GetComponent<ButtonHelper>().text.text = nm;
+            var helper = temp.GetComponent<ButtonHelper>();
+            helper.text.text = nm;
+            helper.go = Resources.Load<GameObject>(nm);
         }
     }
 }
