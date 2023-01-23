@@ -358,4 +358,4 @@ MonoBehaviour:
   preview: {fileID: 1615186745911284290}
   text: {fileID: 4981112925187271397}
   go: {fileID: 0}
-  spawnPosition: {x: 0, y: 1, z: 0}
+  spawnPosition: {x: 1, y: 0.5, z: 0}
