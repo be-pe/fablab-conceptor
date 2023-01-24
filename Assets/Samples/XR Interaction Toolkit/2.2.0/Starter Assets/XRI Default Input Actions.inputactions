@@ -280,9 +280,9 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "PopCatalog",
+                    "name": "Menu",
                     "type": "Button",
-                    "id": "71a3eab0-5103-415c-8c06-8456195c8787",
+                    "id": "6e07ccc2-d3cc-461c-b7b0-5df2da502f50",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -380,12 +380,12 @@
                 },
                 {
                     "name": "",
-                    "id": "26bf0e04-ac9a-40ec-9c85-4407b8411542",
-                    "path": "<XRController>{LeftHand}/gripPressed",
-                    "interactions": "Tap",
+                    "id": "57725413-1531-47a2-85ea-c860d742cf2c",
+                    "path": "<XRController>{LeftHand}/menuButton",
+                    "interactions": "",
                     "processors": "",
                     "groups": "Generic XR Controller",
-                    "action": "PopCatalog",
+                    "action": "Menu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

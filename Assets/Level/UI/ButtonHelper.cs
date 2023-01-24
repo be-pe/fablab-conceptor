@@ -15,5 +15,6 @@ public class ButtonHelper : MonoBehaviour
         GameObject instance = Instantiate(go, spawnPosition, Quaternion.identity);
         Rigidbody rb = instance.AddComponent<Rigidbody>();
         XRGrabInteractable gi = instance.AddComponent<XRGrabInteractable>();
+        gi.useDynamicAttach = true;
     }
 }

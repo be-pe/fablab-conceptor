@@ -8,7 +8,7 @@ public class Catalog : MonoBehaviour
 {
     public GameObject button;
 
-    public Canvas screen;
+    public GameObject screen;
     // Start is called before the first frame update
     private void Start()
     {
