@@ -13,8 +13,14 @@ public class ButtonHelper : MonoBehaviour
     public void HandleClick()
     {
         GameObject instance = Instantiate(go, spawnPosition, Quaternion.identity);
+        instance.layer = 9;
+
         Rigidbody rb = instance.AddComponent<Rigidbody>();
+        rb.useGravity  = false;
+        rb.isKinematic = true;
+        // instance.AddComponent<WallDetection>();
         XRGrabInteractable gi = instance.AddComponent<XRGrabInteractable>();
+        gi.movementType = XRBaseInteractable.MovementType.VelocityTracking;
         gi.useDynamicAttach = true;
     }
 }

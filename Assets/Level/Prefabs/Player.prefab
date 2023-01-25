@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 16824027249598378}
   - component: {fileID: 16824027249598379}
   - component: {fileID: 9175773057054589445}
+  - component: {fileID: 5327883532955017764}
   m_Layer: 0
   m_Name: RightHand Controller
   m_TagString: Untagged
@@ -605,6 +606,19 @@ MonoBehaviour:
   m_RaycastMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &5327883532955017764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16824027249598381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd83a992d8db22448a0154bfd91ca6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleReference: {fileID: 8285040667666062377, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &16824027533357228
 GameObject:
   m_ObjectHideFlags: 0
