@@ -11,7 +11,7 @@ public class WallDetection : MonoBehaviour
         Debug.Log(rb.useGravity);
     }
 
-    public void OnStayEnter(Collider other){
+    public void OnTriggerStay(Collider other){
         Rigidbody rb = GetComponent<Rigidbody>();
         rb.useGravity = false;
         Debug.Log(rb.useGravity);

@@ -24,6 +24,7 @@ public class ToggleCatalog : MonoBehaviour
     }
     private void Toggle(InputAction.CallbackContext context)
     {
+        Debug.Log(toggleReference.name);
         bool isActive = !catalog.activeSelf;
         catalog.SetActive(isActive);
 

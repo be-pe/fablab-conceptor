@@ -365,7 +365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2386502654889924221, guid: b3c713199d1dadb4da7d2b12e5933a1a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00008248639
+      value: -0.0000032282287
       objectReference: {fileID: 0}
     - target: {fileID: 3324589262971992736, guid: b3c713199d1dadb4da7d2b12e5933a1a, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2717,7 +2717,7 @@ MeshCollider:
   m_GameObject: {fileID: 3346667533380668404}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30

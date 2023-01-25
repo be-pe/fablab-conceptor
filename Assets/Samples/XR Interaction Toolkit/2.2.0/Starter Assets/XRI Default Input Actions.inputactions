@@ -727,6 +727,15 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "Delete",
+                    "type": "Button",
+                    "id": "bca43b17-fb37-4e32-b3df-909a8d320ecf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Select Value",
                     "type": "Value",
                     "id": "39bbf1ac-21a3-413d-90f6-6dbf6efeaabe",
@@ -876,6 +885,17 @@
                     "processors": "ScaleVector2(x=0),StickDeadzone",
                     "groups": "Generic XR Controller",
                     "action": "Translate Anchor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f9fb4c5a-9c61-46f4-ab77-3346c83f512c",
+                    "path": "<XRController>{RightHand}/menuButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Delete",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
