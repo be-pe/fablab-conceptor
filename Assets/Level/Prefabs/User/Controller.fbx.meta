@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: onepointfive_spec
-    second: {fileID: 2800000, guid: a2cfb192f025d6d4fbd170e6de0946db, type: 3}
+    second: {fileID: 2800000, guid: d0e756600cfcda043b459fd435861123, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: onepointfive_texture
-    second: {fileID: 2800000, guid: b28be200dd989ea47a3cf0042731cb8b, type: 3}
+    second: {fileID: 2800000, guid: f191f43cb47c9fc418bae29ace8d21cd, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

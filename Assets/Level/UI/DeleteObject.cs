@@ -19,7 +19,7 @@ public class DeleteObject : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit)){
             if (hit.collider.gameObject.layer == 9){
-                Debug.Log("oop");
+                Debug.Log("GameObject :" +  hit.collider.gameObject);
                 obj = hit.collider.gameObject;              
                 toggleReference.action.started += Delete;
             }
