@@ -29,10 +29,11 @@ public class ToggleCatalog : MonoBehaviour
         catalog.SetActive(isActive);
 
         var temp = catalog.transform.position;
-        temp = transform.position + transform.forward * offset;
-        temp.y = transform.position.y - 0.2f;
+        var t = Camera.main.transform;
+        temp = t.position + t.forward * offset;
+        temp.y = t.position.y - 0.2f;
 
         catalog.transform.position = temp;
-        catalog.transform.rotation = new Quaternion(0, transform.rotation.y, 0, transform.rotation.w);
+        catalog.transform.rotation = new Quaternion(0, t.rotation.y, 0, t.rotation.w);
     }
 }
