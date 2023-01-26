@@ -19,6 +19,8 @@ public class Catalog : MonoBehaviour
             var nm = item.name;
             var temp = Instantiate(button, screen.transform);
             var helper = temp.GetComponent<ButtonHelper>();
+            var icon = Resources.Load<Sprite>("Icons/" + item.name);
+            helper.preview.GetComponent<Image>().sprite = icon;
             helper.text.text = nm;
             helper.go = item;
         }
