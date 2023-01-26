@@ -2997,7 +2997,7 @@ GameObject:
   - component: {fileID: 8477738988194089746}
   - component: {fileID: 3422684209748319405}
   m_Layer: 0
-  m_Name: "Fer \xE0 Souder"
+  m_Name: "Fer \xE0 souder"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

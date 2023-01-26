@@ -28,17 +28,11 @@ public class ToggleCatalog : MonoBehaviour
         bool isActive = !catalog.activeSelf;
         catalog.SetActive(isActive);
 
-        /* catalog.transform.position = transform.forward + offset;
-        // catalog.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + 2);
-        Quaternion lm = new Quaternion(0, transform.rotation.y - 180, 0, 0);
-        catalog.GetComponent<RectTransform>().rotation= new Quaternion(catalog.transform.eulerAngles.x, catalog.transform.eulerAngles.y + 180, catalog.transform.eulerAngles.z,0);
-        // catalog.transform.rotation = rotation; */
         var temp = catalog.transform.position;
-        temp = transform.position + transform.forward*offset;
+        temp = transform.position + transform.forward * offset;
         temp.y = transform.position.y - 0.2f;
 
         catalog.transform.position = temp;
-        catalog.transform.rotation = new Quaternion(0,transform.rotation.y,0,transform.rotation.w);
-
+        catalog.transform.rotation = new Quaternion(0, transform.rotation.y, 0, transform.rotation.w);
     }
 }

@@ -21,7 +21,6 @@ public class ButtonHelper : MonoBehaviour
 
         rb.useGravity = false;
         rb.isKinematic = true;
-        // instance.AddComponent<WallDetection>();
         XRGrabInteractable gi = instance.AddComponent<XRGrabInteractable>();
         gi.movementType = XRBaseInteractable.MovementType.VelocityTracking;
         gi.useDynamicAttach = true;
@@ -40,7 +39,8 @@ public class ButtonHelper : MonoBehaviour
             }
             mc.convex = true;
         }
-        else {
+        else
+        {
             MeshCollider mc = obj.gameObject.AddComponent<MeshCollider>();
             mc.convex = true;
         }
@@ -49,6 +49,6 @@ public class ButtonHelper : MonoBehaviour
         {
             AddCollider(child);
         }
-        
+
     }
 }

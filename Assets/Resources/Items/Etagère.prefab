@@ -662,7 +662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4999799488506501607}
   m_Layer: 0
-  m_Name: "\xC9tag\xE8re"
+  m_Name: "Etag\xE8re"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

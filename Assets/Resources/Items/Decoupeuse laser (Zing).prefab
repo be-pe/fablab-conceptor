@@ -844,7 +844,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3154157141356132117}
   m_Layer: 0
-  m_Name: zing
+  m_Name: Decoupeuse laser (Zing)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
